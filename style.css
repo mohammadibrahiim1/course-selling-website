@@ -306,7 +306,7 @@ hr {
 }
 .card-section {
   position: relative;
-  top: 350px;
+  top: 300px;
 }
 .sale-button {
   position: relative;
@@ -316,21 +316,39 @@ hr {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   padding: 0px 10px;
-  border: 1px solid #e74040 ;
+  border: 1px solid #e74040;
   color: white;
   font-size: 17px;
-
 }
-.card-img{
+.card-img {
   width: 240px;
   position: relative;
   top: -22px;
   right: 1px;
-
 }
-.main-card{
+.main-card {
   padding: 0px;
   width: 238px;
   height: 602px;
   background: #ffffff;
+}
+.product-action-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 140px;
+  margin: 0 auto ;
+  height: 40px;
+  bottom: 24px;
+  position: relative;
+  top: -90px;
+
+
+}
+.action-eye{
+  background-color: white;
+  padding: 9px;
+  border-radius: 50%;
 }
