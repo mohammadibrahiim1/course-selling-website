@@ -310,7 +310,7 @@ hr {
 }
 .sale-button {
   position: relative;
-  top: 50px;
+  top: 20px;
   left: 20px;
   background: #e74040;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -319,6 +319,7 @@ hr {
   border: 1px solid #e74040;
   color: white;
   font-size: 17px;
+  z-index: 1;
 }
 .card-img {
   width: 240px;
@@ -339,15 +340,13 @@ hr {
   padding: 0px;
   gap: 10px;
   width: 140px;
-  margin: 0 auto ;
+  margin: 0 auto;
   height: 40px;
   bottom: 24px;
   position: relative;
   top: -90px;
-
-
 }
-.action-eye{
+.action-eye {
   background-color: white;
   padding: 9px;
   border-radius: 50%;
