@@ -164,7 +164,7 @@ hr {
   background: #ffffff;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
-.card-container{
+.card-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -174,7 +174,7 @@ hr {
   margin: 0 auto;
   height: 288px;
 }
-.card-section{
+.card-section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -486,7 +486,89 @@ hr {
   border: 1px solid #8d5cf6;
   border-radius: 37px;
 }
-.card-button img{
+.card-button img {
   margin-top: 5px;
   margin-left: -7px;
+}
+
+/* course section style end */
+
+.live-action-section {
+  width: 1050px;
+  height: 928px;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+}
+.testimonial-card {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0px;
+  width: 508px;
+  height: 378.01px;
+  background: #ffffff;
+}
+.testimonial-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 200px;
+  position: relative;
+  margin-top: 20px;
+  left: 37%;
+}
+.testimonial-paragraph {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: #737373;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.testimonial-ratings {
+  font-size: 20px;
+  text-align: center;
+}
+.testimonial-title {
+  width: 105px;
+  height: 24px;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.testimonial-position {
+  width: 105px;
+  height: 24px;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+.testimonial-card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 378.01px;
 }
