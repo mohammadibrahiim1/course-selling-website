@@ -42,6 +42,18 @@ body {
   border-radius: 3px;
   color: white;
 }
+.second-container-button button{
+  padding: 7px 20px 7px 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: JetBrains Mono;
+  font-weight: 600;
+  background-color: #23a6f0;
+  border: 1px solid #23a6f0;
+  border-radius: 3px;
+  color: white;
+}
 .header-section {
   background-image: url("https://i.ibb.co/rQGdZph/background.png");
   height: 827px;
@@ -166,6 +178,7 @@ hr {
   width: 1050px;
   height: 683px;
   margin: 0 auto;
+  margin-top: 200px;
 }
 .row {
   display: flex;
@@ -176,6 +189,16 @@ hr {
   gap: 30px;
   width: 1045px;
   height: 363px;
+}
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: 1038px;
+  height: 501px;
 }
 .fix-width-fix-height {
   width: 94px;
@@ -193,14 +216,39 @@ hr {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-.container-paragraph {
+.container-section-title2{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.container-paragraph{
   width: 351px;
   height: 60px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #ffffff;
+}
+.container-paragraph2{
+  width: 351px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.second-container {
+  width: 1050px;
+  height: 821px;
+  margin: 0 auto;
 }
