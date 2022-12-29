@@ -406,7 +406,7 @@ hr {
   position: relative;
   top: -22px;
   /* height: 40px; */
-  font-family:"Montserrat";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -414,8 +414,69 @@ hr {
   letter-spacing: 0.2px;
   color: #737373;
 }
-.course-info{
+.course-info {
   position: relative;
   top: -110px;
   left: 25px;
+}
+.sales-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 83px;
+  height: 24px;
+  position: relative;
+  top: -130px;
+  left: 22px;
+}
+.sale-img {
+  width: 16px;
+  height: 16px;
+}
+.sale-text {
+  width: 57px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.price {
+  width: 45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #ff7b52;
+  position: relative;
+  top: -130px;
+  left: 25px;
+}
+.card-button {
+  position: relative;
+  top: -120px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 141.14px;
+  color: #8d5cf6;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #8d5cf6;
+  border-radius: 37px;
+}
+.card-button img{
+  margin-top: 5px;
+  margin-left: -7px;
 }
