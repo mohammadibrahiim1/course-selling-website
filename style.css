@@ -1,11 +1,13 @@
 body {
-  background-color: #252b42;
+  background-color: #26335D;
 }
 .menu-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 12px;
+  position: relative;
+  /* top: 500px; */
 }
 .site-logo {
   color: #ffffff;
@@ -35,6 +37,19 @@ body {
   font-size: 16px;
   font-family: JetBrains Mono;
   font-weight: 600;
+  background-color: #23a6f0;
+  border: 1px solid #23a6f0;
+  border-radius: 3px;
+  color: white;
+}
+.header-section {
+  background-image: url("https://i.ibb.co/rQGdZph/background.png");
+  height: 827px;
+  width: full;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  top: -10px;
 }
 .header-greeting {
   text-align: center;
@@ -44,7 +59,7 @@ body {
   font-size: 22px;
   line-height: 24px;
   letter-spacing: 0.1px;
-  color: #23a6f0;
+  color: white;
 }
 .headline {
   font-family: "Montserrat";
@@ -55,6 +70,7 @@ body {
   text-align: center;
   letter-spacing: 0.2px;
   color: #ffffff;
+  margin-top: -30px;
 }
 .sub-headline {
   font-family: JetBrains Mono;
@@ -80,8 +96,7 @@ body {
   font-family: JetBrains Mono;
   margin: auto;
 }
-.heading-button{
- text-align: center;
- margin-top: 40px;
-
+.heading-button {
+  text-align: center;
+  margin-top: 40px;
 }
