@@ -7,9 +7,9 @@ body {
   align-items: center;
   padding: 12px;
 }
-.site-logo{
-    color: #FFFFFF;
-    font-family: JetBrains Mono;
+.site-logo {
+  color: #ffffff;
+  font-family: JetBrains Mono;
 }
 .navbar-items {
   display: flex;
@@ -21,19 +21,67 @@ body {
   padding-right: 75px;
   font-size: 20px;
   font-family: JetBrains Mono;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.navbar-button{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
-    padding-right: 12px;
+.navbar-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 12px;
 }
-.navbar-button button{
-    padding:7px 20px 7px 20px;
-    margin-right: 20px;
-    font-size: 16px;
-    font-family: JetBrains Mono;
-    font-weight: 600;
+.navbar-button button {
+  padding: 7px 20px 7px 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-family: JetBrains Mono;
+  font-weight: 600;
+}
+.header-greeting {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #23a6f0;
+}
+.headline {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.sub-headline {
+  font-family: JetBrains Mono;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-top: -20px;
+}
+.button {
+  text-align: center;
+  padding: 7px 20px 7px 20px;
+  border: 1px solid #23a6f0;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #23a6f0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: JetBrains Mono;
+  margin: auto;
+}
+.heading-button{
+ text-align: center;
+ margin-top: 40px;
 
 }
